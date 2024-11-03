@@ -38,7 +38,7 @@ function endResult(user, computer, result) {
     (user === "مقص" && computer === "حجر") ||
     (user === "حجر" && computer === "ورقة")
   ) {
-    result.innerText = "لقد خسرت :( ";
+    result.innerText = "لقد خسرت -_-";
     result.style.borderColor = "red";
   } else {
     result.innerText = "تعادل !";
