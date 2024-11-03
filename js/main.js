@@ -33,6 +33,7 @@ function endResult(user, computer, result) {
   ) {
     result.innerText = "لقد فزت ^-^ !";
     result.style.borderColor = "#30ff30";
+    result.style.boxShadow="0px 0px 8px 2px #008200";
   } else if (
     (user === "ورقة" && computer === "مقص") ||
     (user === "مقص" && computer === "حجر") ||
@@ -40,8 +41,10 @@ function endResult(user, computer, result) {
   ) {
     result.innerText = "لقد خسرت -_-";
     result.style.borderColor = "#e23333";
+    result.style.boxShadow="0px 0px 8px 2px #e72525";
   } else {
     result.innerText = "تعادل !";
     result.style.borderColor = "white";
+    result.style.boxShadow="0px 0px 8px 2px #979090";
   }
 }
