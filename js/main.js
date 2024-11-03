@@ -32,14 +32,14 @@ function endResult(user, computer, result) {
     (user === "حجر" && computer === "مقص")
   ) {
     result.innerText = "لقد فزت ^-^ !";
-    result.style.borderColor = "green";
+    result.style.borderColor = "#30ff30";
   } else if (
     (user === "ورقة" && computer === "مقص") ||
     (user === "مقص" && computer === "حجر") ||
     (user === "حجر" && computer === "ورقة")
   ) {
     result.innerText = "لقد خسرت -_-";
-    result.style.borderColor = "red";
+    result.style.borderColor = "#e23333";
   } else {
     result.innerText = "تعادل !";
     result.style.borderColor = "white";
